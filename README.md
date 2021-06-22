@@ -8,6 +8,6 @@ Depending on the type data at hand, several network architectures have been prop
 
 * **RNN's** (Recurrent Neural Networks) are a special type of neural network architechture best suited to address text data for applications in NLP (natural language processing)   or recently in regression problems such as Time-Series dued to the sequential nature of the data.
 
-* **CNN's** (Convolutional Neural Networks) are mainly used in the classification context particularly applied to images for building Computer Vision applciations.
+* **CNN's** (Convolutional Neural Networks) are mainly used in the classification context particularly applied to images for building Computer Vision applciations such as object detection, image segmentation ect.. 
 
 * **GAN's** (Generative Adversial Networks) involve two models; a Generator and Discriminator which oppose eachother in order for the Generator to create

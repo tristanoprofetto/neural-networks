@@ -1,6 +1,6 @@
 # Deep Learning Implementations
 
-The focus of this repository is to present the varying types of Neural Network architectures and how to implement them in Python using TensorFlow and PyTorch, the most popular open source deep learning libraries today. 
+The focus of this repository is to present the various types of Neural Network architectures and how to implement them in Python using TensorFlow and PyTorch, the most popular open source deep learning libraries today. 
 
 Depending on the type data at hand, several network architectures have been proposed by some of the greatest minds in the field of AI in order to properly fit a particular use case.
 
@@ -11,4 +11,4 @@ Depending on the type data at hand, several network architectures have been prop
 
 * **CNN's** (Convolutional Neural Networks) are mainly used in the classification context particularly applied to images for building Computer Vision applciations such as object detection, image segmentation ect.. 
 
-* **GAN's** (Generative Adversial Networks) involve two models; a Generator and Discriminator which oppose eachother in order for the Generator to create
+* **GAN's** (Generative Adversial Networks) involve two models; a Generator and Discriminator which oppose eachother in order for the Generator to create new data base on the feedback learned from contesting the Discriminator.

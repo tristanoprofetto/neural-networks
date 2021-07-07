@@ -12,3 +12,5 @@ Depending on the type data at hand (text, image, sound), several network archite
 * **CNN's** (Convolutional Neural Networks) are mainly used in the classification context particularly applied to images for building Computer Vision applications such as object detection, image segmentation ect.. 
 
 * **GAN's** (Generative Adversial Networks) involve two models; a Generator and Discriminator, which oppose eachother in order for the Generator to create new data, based on the feedback learned from contesting the Discriminator.
+
+* **Transformers** a novel type of neural network powered by the Encoder and Decoder that adopts the mechanism of attention, differentially indentifying the significance of each part of the input data... powerful applications in the field of natural language processing and computer vision are built with these 'state-of-the-art' architectures.

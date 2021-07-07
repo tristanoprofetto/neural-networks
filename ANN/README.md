@@ -18,3 +18,14 @@ Necessary components of producing an output:
 Consider a single hidden layer ANN....
 * First Operation: a = w.X + b
 * Output: h(a)
+
+
+### Understanding Backpropagation
+
+Backpropagation is the backbone of deep learning models today, without the ability for these models to learn, we would not have advanced in the field as much as we have today.
+
+Components for performing Backpropagation:
+* Predictions Vector **y^**
+* Response variable vector **Y**
+* Derivative of the Activation Function **g(a)**
+* Cost function **C** (typically; least squares, cross-entropy)

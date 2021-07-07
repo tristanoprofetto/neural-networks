@@ -2,7 +2,7 @@
 
 The focus of this repository is to present the various types of Neural Network architectures and how to implement them in Python using TensorFlow and PyTorch, the most popular open source deep learning libraries today. 
 
-Depending on the type data at hand, several network architectures have been proposed by some of the greatest minds in the field of AI in order to properly fit a particular use case.
+Depending on the type data at hand (text, image, sound), several network architectures have been proposed by some of the greatest minds in the field of AI in order to properly fit a particular use case.
 
 ### Neural Network Architectures 
 * **ANN's** (Artificial Neural Networks) are your plain vanilla network architecture.

@@ -11,4 +11,4 @@ Depending on the type data at hand (text, image, sound), several network archite
 
 * **CNN's** (Convolutional Neural Networks) are mainly used in the classification context particularly applied to images for building Computer Vision applications such as object detection, image segmentation ect.. 
 
-* **GAN's** (Generative Adversial Networks) involve two models; a Generator and Discriminator which oppose eachother in order for the Generator to create new data base on the feedback learned from contesting the Discriminator.
+* **GAN's** (Generative Adversial Networks) involve two models; a Generator and Discriminator, which oppose eachother in order for the Generator to create new data, based on the feedback learned from contesting the Discriminator.

@@ -14,6 +14,10 @@ Primary components of Transformer architecture (simplified):
 ### Use Cases
 These components may be used individually, or in unison to build 'state-of-the-art' models optimized for certain tasks...
 * Encoder models: sentence classification (sentiment analysis) or named entity recognition (NER)
+  * BERT
+  * ALBERT
+  * DistilBERT
+  * ELECTRA
 * Decoder models: text generation (writing poems, finishing sentences)
 * Encoder-Decoder models (sequence-to-sequence): language translation, summarizing text
 

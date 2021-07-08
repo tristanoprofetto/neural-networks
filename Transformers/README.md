@@ -8,7 +8,7 @@ Primary components of Transformer architecture (simplified):
 * **Encoder**: receives an input, then builds a representation of the feature matrix (understanding the input)
 * **Decoder**: using the encoder's representation of the input, target sequences are generated (producing output)
 
-**Attention Layers**: allows tthe model to carefully identify the most meaningful or influential words in a given sentence...
+**Attention Layers**: allows transformer models to carefully identify the most meaningful or influential words in a given sentence...
 
 
 ### Use Cases

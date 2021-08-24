@@ -3,8 +3,8 @@
 GAN's are a special type of neural network optimized for computer vision tasks.
 
 Components:
-* Generator
-* Discriminator
+* Generator: learns how to generate images from a random noise vector ...  the generator’s goal is to trick the discriminator
+* Discriminator: trained to recognize real images from the fake images provided by the generator
 
 
 ### Challenges when Evaluating GAN's

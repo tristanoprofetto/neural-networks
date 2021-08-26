@@ -1,6 +1,6 @@
 # Generative Adversarial Networks (GAN's)
 
-GAN's are a special type of neural network optimized for computer vision tasks.
+GAN's are a special type of neural network optimized for computer vision tasks. This architecture involves two models against each other, one tasked with creating something based on existing data and the other tasked with finding flaws in the new output. When flaws are discovered, the creative network (known as the “generator”) learns from its mistakes and eventually becomes capable of creating data that its opponent (the “discriminator” network) finds increasingly hard to distinguish from the existing data.
 
 Components:
 * Generator: learns how to generate images from a random noise vector ...  the generator’s goal is to trick the discriminator

@@ -7,7 +7,9 @@ Primary components of Transformer architecture (simplified):
 * **Encoder**: receives an input, then builds a representation of the feature matrix (understanding the input)
 * **Decoder**: using the encoder's representation of the input, target sequences are generated (producing output)
 
-**Attention Layers**: allows transformer models to carefully identify the most meaningful or influential words in a given sentence...
+**Attention Layers**: allows transformer models to carefully identify the most meaningful or influential words in a given sentence... attention is computed by taking the scaled dot product of the corresponding {query, key} and value all wraped up in a softmax function.
+
+In a traditional transformer architecture presented by Ashish Vaswani, each encoder/decoder contains 6 stacks of identical layers. Where each layer consists of two sub-layers, a multi-headed attention mechanism, and a simple feed forward pass (each sub-layer is wrapped in a residual connection, followed by a normalization).
 
 
 

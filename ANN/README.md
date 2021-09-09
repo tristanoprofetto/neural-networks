@@ -22,10 +22,10 @@ Consider a single hidden layer ANN....
 
 ### Understanding Backpropagation
 
-Backpropagation is the backbone of deep learning models today, without the ability for these models to learn, we would not have advanced in the field as much as we have today.
+Backpropagation is the backbone of deep learning models today, without the ability for these models to learn, we would not have advanced in the field as much as we have today (thank sir Geoffrey Hinton).
 
 Components for performing Backpropagation:
 * Predictions Vector **y^**
 * Response variable vector **Y**
 * Derivative of the Activation Function **g(a)**
-* Cost function **C** (typically; least squares, cross-entropy)
+* Cost function **C** (typically; quadratic or cross-entropy)

@@ -14,6 +14,4 @@ Components:
 * Language Translation
 * Sentiment Analysis
 
-
-### How RNN's Learn
-Thanks to the Backpropagation Through Time (BPTT) training algorithm, RNN's can have their weights optimized in way of best handling sequential data such as; text and time-series. 
+ 

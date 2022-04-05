@@ -141,7 +141,7 @@ SGD <- function(x, y, w1, w2, activation, derivative, learnRate, epochs) {
 
 
 # Running SGD function to obtain our optimized mode and parameters
-model <- SGD(x, y, w1, w2, sigmoid, derivativeActivation, learnRate = 0.01, epochs = 200)
+model <- SGD(x, y(x), w1, w2, sigmoid, derivativeActivation, learnRate = 0.01, epochs = 200)
 
 
 # Obtaining our adjusted SSE's for each epoch..
@@ -166,6 +166,6 @@ print(new_W2)
 y_pred <- feedForward(x, new_W1, new_W2, sigmoid)
 
 #Plotting training data against our model predictions
-plot(x,y, main = "Target Response vs. Predictions",xlab="Observations", ylab="Responses", col="red")
+plot(x,y(x), main = "Target Response vs. Predictions",xlab="Observations", ylab="Responses", col="red")
 lines(x, y_pred, col="blue", type="p")
 legend(y=1,x=0.7, legend=c('Data points','Fitted Values'), col=c('red','blue') , lty=c(0,0), pch=c(1,1))
